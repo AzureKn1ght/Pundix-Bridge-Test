@@ -4,7 +4,7 @@
   "description": "•\tWrite a script to query info on the fx-bridge (50 points) \t•\tFor each type of ERC20 token registered on this bridge (the ethereum side) \t•\tThe total supply of that token locked in the bridge \t•\tMake your first commit of this script to the git repository \t•\tExecute the script and store the data (30 points) \t•\tRun the script every 5 seconds for 1 minute \t•\tWrite the data with the timestamp and block height to a csv file labelled “fx-bridge token supply” \t⁃\tPresent the data in a understandable and presentable format \t•\tStage your changes and make your next commit and to the git repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
